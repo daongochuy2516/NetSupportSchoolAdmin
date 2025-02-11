@@ -6,6 +6,7 @@ if %errorlevel% neq 0 (
     exit /B
 )
 cd /d "%~dp0"
+title NetSupportSchool Admin Launcher
 set "resourcesDir=%~dp0Resources"
 if not exist "%resourcesDir%" (
     echo Resources folder not found. Creating...
