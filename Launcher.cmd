@@ -38,7 +38,7 @@ if not exist "%techZip%" (
 )
 if not exist "%tutorZip%" (
     echo Downloading NetSupport School Tutor...
-    curl -L -o "%tutorZip%" "https://github.com/daongochuy2516/NetSupportSchoolAdmin/releases/download/Resources2/NetSupport.School.Tutor.zip"
+    curl -L -o "%tutorZip%" "https://github.com/daongochuy2516/NetSupportSchoolAdmin/releases/download/Resources/NetSupport.School.Tutor.zip"
 )
 
 :MENU
